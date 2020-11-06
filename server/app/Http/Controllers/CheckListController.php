@@ -16,7 +16,8 @@ class CheckListController extends Controller
     {
         $headers =['Content-Type'=> 'application/pdf'];
         $filename = 'checklist.pdf';
-        return Storage::download(storage_path('app/public/checklist/checklist.pdf'), $filename , $headers);
+
+        return Storage::download('private/checklist.pdf', $filename, $headers);
 
     }
 }

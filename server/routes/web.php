@@ -41,3 +41,4 @@ Route::group(['middleware'=> 'auth'], function () {
 });
 
 Route::resource('yakusoku','YakusokuController',['only'=>['index']]);
+
