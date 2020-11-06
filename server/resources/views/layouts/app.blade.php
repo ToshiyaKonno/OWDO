@@ -19,7 +19,7 @@
     @include('layouts.header')
     <div class="container">
         @yield('content')
-        {{-- びゅーごとに異なる部分 --}}
+        {{-- びゅーごとに異なる部分です --}}
     </div>
 </body>
 </html>

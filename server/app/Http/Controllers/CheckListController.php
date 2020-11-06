@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Storage;
 
+use PDF;
+
 class CheckListController extends Controller
 {
     public function show()
@@ -16,7 +18,8 @@ class CheckListController extends Controller
     {
         $headers =['Content-Type'=> 'application/pdf'];
         $filename = 'checklist.pdf';
-        return Storage::download(storage_path('app/public/checklist/checklist.pdf'), $filename , $headers);
+
+        return Storage::download('private/checklist.pdf', $filename, $headers);
 
     }
 }

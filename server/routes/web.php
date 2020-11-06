@@ -20,6 +20,15 @@ Route::get('lifehack/', 'LifeHackController@index');
 Route::get('checklist','CheckListController@show');
 Route::get('/download', 'CheckListController@download');
 
+//-------------------jpegの表示--------------
+// Route::get('/pdf', function () {
+//     $pdf = app('dompdf.wrapper');
+//     $pdf->loadView('server/storage/app/public/checklist/checklist.pdf', ['foo' => 'bar']);
+
+//     return $pdf->stream('checklist.pdf');
+// });
+//-------------------------------------------------
+
 Route::resource('lifehack', 'LifeHackController');
 // リソースを使用しない場合
 // Route::get('/items','ItemController@index');
@@ -29,4 +38,4 @@ Route::resource('lifehack', 'LifeHackController');
 // Route::get('/items/{id}/edit','ItemController@show');
 // Route::get('/items/{id}/edit','ItemController@edit');
 // Route::patch('/items/{id}','ItemController@update');
-// Route::delete('/items/{id}','ItemController@destroy');
+// Route::delete('/items/{id}','ItemController@destroy')
