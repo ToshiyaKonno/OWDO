@@ -38,7 +38,7 @@
                 <!-- <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p> -->
                 <p>家族で決めたお約束事項を共有したり、書き方の例を挙げています。</p>
                 <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
-                <p><a class="btn btn-secondary" href="#" role="button">詳しくみる &raquo</a></p>
+                <p><a class="btn btn-secondary" href="yakusoku" role="button">詳しくみる &raquo</a></p>
             </div>
         </div>
         
