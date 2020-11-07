@@ -3,9 +3,14 @@
 
 <main role="main">    
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-3 logo">OWDO</h1>
+    <div class="">
+        <div class="bg-warning">
+            <h1 class="display-3 logo"> </h1>
+            {{-- <img src="{{ asset('../image/OWDO.png')}}"> --}}
+            <div style="text-align:center;"> 
+<br>
+<img src="../image/OWDO.png" width="500px" height="500px" padding="10px" 30px alt="logo">
+</div>
             <!-- <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p> -->
             <p>OWDOとは[Open when disaster occurred]の頭文字を取っています。[災害の時に開くアプリケーション]という意味です。スマートフォン向けのアプリケーションです。ダウンロードはこちらから</p>
             <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
