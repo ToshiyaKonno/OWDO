@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 
 class YakusokuController extends Controller
@@ -13,12 +14,11 @@ class YakusokuController extends Controller
         return view('yakusoku.index');
     }
     public function show($id){
-        
-        $user = User::find($id);
+        $user = Auth::user();
         return view('yakusoku.show',['user' => $user]);
     }
     public function edit($id) {
-        $user = User::find($id);
+        $user = Auth::user();
         return view('yakusoku.edit', ['user' => $user]);
     }
     public function update(Request $request, $id) {
