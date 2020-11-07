@@ -3,3 +3,9 @@
 .logo {
     font-family: 'Raleway', sans-serif;
 }
+
+.square-img{
+    height: 240px;
+    width: 240px;
+    object-fit: cover;
+}
