@@ -13,6 +13,7 @@ class YakusokuController extends Controller
         return view('yakusoku.index');
     }
     public function show($id){
+        
         $user = User::find($id);
         return view('yakusoku.show',['user' => $user]);
     }
