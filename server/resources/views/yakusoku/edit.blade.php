@@ -9,7 +9,7 @@
 <!-- idはそのまま -->
 <input type="hidden" name="id" value="{{ $user->id }}">
     <p>
-        商品詳細：<br>
+        お約束：<br>
         <input type="text" name="yakusoku" value="{{ $user->yakusoku }}">
     </p>
     <input type="submit" value="更新" >

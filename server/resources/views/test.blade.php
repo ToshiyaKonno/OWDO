@@ -12,9 +12,10 @@
 <img src="../image/OWDO.png" width="500px" height="500px" padding="10px" 30px alt="logo">
 </div>
             <!-- <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p> -->
-            <p>OWDOとは[Open when disaster occurred]の頭文字を取っています。[災害の時に開くアプリケーション]という意味です。スマートフォン向けのアプリケーションです。ダウンロードはこちらから</p>
+            <p>OWDOとは[Open when disaster occurred]の頭文字を取っています。[災害の時に開くアプリケーション]という意味です。スマートフォン向けのアプリケーションです。ダウンロードは<a href="https://www.apple.com/jp/app-store/" target="_blank">こちら</a>から</p><br>
+            <p>こちらのページでは災害時に役立つライフハックの共有や、おすすめの防災アイテム、家族とのお約束の事柄を共有するサイトです。
             <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">詳しくみる &raquo;</a></p>
+            {{-- <p><a class="btn btn-primary btn-lg" href="https://www.apple.com/jp/app-store/" role="button">詳しくみる &raquo;</a></p> --}}
         </div>
     </div>
     
