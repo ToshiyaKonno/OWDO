@@ -44,22 +44,22 @@
 <p>
 <div class="list-group">
     <a href="#" class="list-group-item list-group-item-action active">
-        電灯など
+        生活用品など
     </a>
-    <a href="" class="list-group-item list-group-item-action">懐中電灯</a>
-    <a href="#" class="list-group-item list-group-item-action">電池</a>
-    <a href="#" class="list-group-item list-group-item-action">ラジオ</a>
-    <a href="#" class="list-group-item list-group-item-action disabled">手回し発電機</a>
+    <a href="" class="list-group-item list-group-item-action">十徳ナイフ</a>
+    <a href="#" class="list-group-item list-group-item-action">携帯用トイレ</a>
+    <a href="#" class="list-group-item list-group-item-action">作業用手袋</a>
+
 </div></p>
 
 <div class="list-group">
     <a href="#" class="list-group-item list-group-item-action active">
-        電灯など
+        その他
     </a>
-    <a href="" class="list-group-item list-group-item-action">懐中電灯</a>
-    <a href="#" class="list-group-item list-group-item-action">電池</a>
-    <a href="#" class="list-group-item list-group-item-action">ラジオ</a>
-    <a href="#" class="list-group-item list-group-item-action disabled">手回し発電機</a>
+    <a href="" class="list-group-item list-group-item-action">カイロ</a>
+    <a href="#" class="list-group-item list-group-item-action">ヘルメット</a>
+    <a href="#" class="list-group-item list-group-item-action">折りたたみヘルメット</a>
+    <a href="#" class="list-group-item list-group-item-action disabled">雨具</a>
 </div></p>
 
 @endsection

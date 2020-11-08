@@ -9,8 +9,9 @@
 <!-- idはそのまま -->
 <input type="hidden" name="id" value="{{ $user->id }}">
     <p>
-        商品詳細：<br>
-        <input type="text" name="yakusoku" value="{{ $user->yakusoku }}">
+       <h1>お約束：</h1> 
+        <br>
+        <textarea type="text" name="yakusoku" value="{{ $user->yakusoku }}">{{ $user->yakusoku }} </textarea>
     </p>
     <input type="submit" value="更新" >
 </form>
